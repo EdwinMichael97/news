@@ -1,0 +1,196 @@
+img {
+    width: 90%;
+}
+.spec {
+    height: 280px;
+}
+.opin p, .spon p {
+    width: 90%;
+}
+.spon h6 {
+    font-size: 16px;
+    color: rgb(16, 170, 197);
+    padding: 9rem 10px 6px 5px;
+}
+.spon div {
+    border: 1px solid lightgray;
+    padding: 5px 5px 5px 15px ;
+    width: 85%;
+}
+.spon div > h4 {
+    font-size: 17px;
+}
+.spon div > p, .tori p {
+    line-height: 1.5;
+}
+.tori p, .tori h5 {
+    width: 90%;
+    padding-top: 5px;
+}
+.tori h5 {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.turn, .turn p {
+    width: 90%;
+}
+.turn div > p, .bas {
+    color: rgb(179, 176, 176);
+    font-weight: bold;
+}
+.bas {
+    padding-top: 13px;
+}
+.turn button {
+    color: black;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(138, 212, 247);
+    padding: 4px;
+}
+h6 {
+    font-size: 16px;
+    color: rgb(16, 170, 197);
+    padding: 9rem 10px 6px 5px;
+}
+.poy {
+    width: 90%;
+    border: 1px solid lightgray;
+    padding: 5px 10px 5px 15px ;
+   
+}
+#pou {
+    width: 90%;
+    background: lightgray; 
+    border: 1px solid lightgray;
+    padding: 6px 10px 10px 10px ;
+    margin-top: 9rem;
+}
+.dat {
+    display: flex;
+}
+.dat h3 {
+    font-size: 20px;
+    background: orangered;
+    color: white;
+    padding: 5px;
+    margin-top: 7px;
+}
+.dat h4 {
+    padding-left: 5px;
+}
+.dix input {
+    width: 85%;
+    padding: 5px;    
+}
+.dix input[ type="email" ]{
+    margin-top: 6px;
+}
+.dix input[ type="button" ] {
+    margin-top: 8px;
+    background: orangered;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.peak {
+    width: 90%;
+}
+span {
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+  
+}
+strong {
+    padding-left: 5px;
+}
+.peak h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.feat {
+    margin-top: 10rem;
+}
+.feat h5 {
+    color: orangered;
+    font-weight: bolder;
+    padding: 6px 2px ;
+    margin-top: 5px;
+   
+}
+.feat div > p {
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    background: lightgray;
+    padding: 8px;
+}
+em {
+    background: orangered;
+    color: white;
+    font-style: normal;
+    padding: 3px 4px;
+}
+.editt {
+    width: 90%;
+}
+.editt h2 {
+    text-align: center;
+    padding: 15px 0;
+}
+.editt strong {
+    color: black;
+    font-size: 18px;
+}
+.editt h3 {
+    color: orangered;
+    font-size: 17px;
+    padding: 15px 0;
+}
+.editt h5 {
+    font-size: 16px;
+}
+.subs {
+   width: 90%;
+}
+.subs h3 {
+    color: orangered;
+}
+.subs div {
+    background-color: lightgrey;
+}
+.dep {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 9rem;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.dep h5 {
+    line-height: 1.5;
+}
+.debate img {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+.debate div{
+    width: 80%;
+}
+.subs p {
+    padding: 0 6px 6px 6px;
+    text-align: center;
+}
+.subs input[ type="button"] {
+    text-align: center;
+    margin-left: 39%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: orangered;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}

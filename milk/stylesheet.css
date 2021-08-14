@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav h2{
+    display: none;
+}
+body {
+    background-color: rgb(238, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+section {
+    background-color: white;
+    color: black;
+    padding: 15px 0 20px 0;
+    margin-bottom:16px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+header {
+    background: orangered;
+    color: white;
+    height: 50px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1 {
+    font-size: 25px;
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr {
+    width: 90%;
+}
+.mar_imag, .mar_imag1 {
+    width: 28px;
+    height: 28px;
+}
+.mar_imag{
+    padding-right: 5px;
+}
+.mar_imag1 {
+    padding-left: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.btn {
+    border: none;
+    border-radius: 8px;
+    background: yellow;
+    color: black;
+    padding: 5px;
+    font-weight: bolder;
+}
+input {
+    padding-left: 5px;
+}
+.top, .feature {
+    min-width: 90%;
+}
+.top img, .top p, .top h3 {
+    width: 90%;
+    padding-bottom: 5px;
+}
+.feature img, .feature p, .feature h3 {
+    width: 90%;
+    padding-bottom: 5px;
+}
+.feature p{
+    padding-bottom: 8px;
+}
+h2 {
+    text-transform: uppercase;
+    color:  rgb(204, 201, 201);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+h3 {
+    font-size: 17px;
+    padding-bottom: 6px;  
+}
+p {
+    font-size: 13px;
+    padding: 5px 0px 10px 0 ;
+    text-align: justify; 
+}
+h4 {
+    font-size: 15px;
+    padding: 9px 0;
+    width: 90%;
+}
+.newlet {
+    width: 90%;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 2px 3em 6px 3em;
+}
+.newlet h3 {
+    padding-top: 20px;
+}
+.newlet p {
+    text-align: center;
+}
+.paran h3 {
+    color: orangered;
+    margin-bottom: 9rem;
+}
+.now{
+    display: flex;
+    padding: 15px 0;
+}
+.now input[type="email"] {
+    padding: 5px;
+    width: 40%;
+}
+.now input[type="button"] {
+    background: orangered;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    width: 50%;
+}
+.foot h1 {
+    color: orangered;
+    font-size: 45px;
+}
+.container .spon > div {
+    border: none;
+}
+.opin img {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+}
+.opin h2, .opin p {
+    padding-left: 20px;
+}
+.sub {
+    display: flex;
+    width: 90%;
+}
+.debate div > img {
+    width: 50px;
+}
+.pass p{
+   text-align: center;
+   color: orangered;
+   font-weight: bolder;
+   
+}
+.foot img {
+    width: 37px;
+    padding: 7px;
+}
+.foot p{
+    width: 90%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+br{
+    display: none;
+}
+
+
+
+/**medium with media queries**/
+@media (min-width:600px){
+.spon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    }
+.container .spon > div {
+    border: none;
+}
+.change, .find  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.subs div {
+    margin: auto;
+    width: 60%;
+}
+.container .newlet {
+    margin: auto;
+    width: 50%;
+}
+.spec {
+    width: 50%;
+
+}
+.bliss {
+    float: right;
+    width: 45%;
+}
+.foot img {
+    width: 40px;
+    padding: 5px;
+}
+
+}
+
+
+
+
